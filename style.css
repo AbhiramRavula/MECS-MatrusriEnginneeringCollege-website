@@ -1,0 +1,178 @@
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+.card {
+  border-radius:  0rem;
+}
+
+.nav-bar {
+    height:5rem;    
+    /* height: fit-content; */
+    background-color: #fff;
+    color: black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.logoEx{
+    background-image: url('imgs/logoExs1.png');
+    background-size:cover;
+    margin-top: 1.25rem;
+    height: 7.5rem;
+    width:  55rem;
+
+}
+
+.logoOG {
+    background-image: url('imgs/LogoOG.png');
+    background-size: cover;
+    height: 7.7rem;
+    width: 95rem;
+    /* margin-top: 1.25rem; */
+    /*height: 7.5rem; */
+    /* width:  55rem; */
+}
+
+.batches{
+    background-image: url('imgs/batches.jpg');
+    background-size:contain;
+    margin-top: 1rem ;
+    height: 5rem;
+    width:  24.375rem;
+}
+
+.panel1 {
+    height: 1.563rem;
+    background-color: rgb(37, 144, 180) ;
+    display: flex;
+    color: #f3f3f3;
+    padding-top: 0.2rem;
+    justify-content:left;
+}
+
+.panel1 p  {
+    display: inline;
+    padding-left: 1.125rem;
+    font-size: 0.65rem;
+}
+
+.panel1 pa  {
+    display: inline;
+    margin-left: 0.813rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: blue;
+}
+
+span {
+ background-color: #f3f3f3;
+}
+
+.panel2 {
+    height: 1.875rem;
+    background-color: rgb(89, 24, 146) ;
+    margin-top: 1.5rem;
+
+    /* display: flex;
+    color: #f3f3f3;
+    align-items: center;    
+    justify-content:space-evenly; */
+}
+
+.panel2 a:hover {
+    /* text-decoration: underline rgb(173, 173, 255) 5px; */
+    border-bottom:solid rgb(111, 190, 233) 0.313rem ;
+    /* z-index:  10; */
+}
+
+.hero {
+  margin: 0px 5rem 0px 5rem;
+  /* border: 2px solid black; */
+  /* height: 85.625rem; */
+  height: fit-content;
+
+}
+marquee {
+    padding: 1rem;
+    border: solid black 0.063rem;
+    
+    font-size: small;
+    font-weight: 700; 
+}
+
+marquee a{
+   text-decoration: none;
+   color: blue ;
+}
+
+@keyframes highlight {
+    0% { background-color: yellow; }
+    50% { background-color: red; }
+    100% { background-color: yellow; }
+}
+.moving-highlight {
+    animation: highlight 2s infinite;
+}
+
+
+
+._head {
+    background-color: rgb(82, 12, 12);
+    color: white;
+    text-align: center;
+}
+
+
+.alpha {
+    background-color:rgb(91, 25, 25) ;
+}
+
+
+.footer-color {
+  background-color: rgb(61, 17, 61);
+  color: #f3f3f3;
+  padding: 0rem 5rem 0rem 5rem;
+  height: fit-content;
+  position: relative;
+}   
+
+.undergreen  {
+    padding-bottom:  1rem;
+    border-bottom: solid green 0.125rem;
+}
+
+.f-content p {
+    margin-bottom: -1rem;
+}
+
+.copyright {
+    text-align: start;
+    padding-left: 5rem;
+    padding-right: 0rem;
+    margin-top: 1rem;
+    height: 1rem;
+}
+
+.f-panel2 {
+    background-color:rgb(44, 40, 40);
+    height: 2rem;
+}
+
+.f-panel1 p:hover {
+   color: green;
+}
+
+/* :root {
+    --bs-custom-color1: #660033;
+    --bs-custom-color2: #003366;
+
+  } */
+  
+.custom-card1 {
+  background-color: #660033; 
+}
+.custom-card2 {
+   background-color:  #003366 ;
+}
